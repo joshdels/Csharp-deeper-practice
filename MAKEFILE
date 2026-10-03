@@ -1,0 +1,11 @@
+.PHONY: new
+
+
+new:
+	dotnet new <type> -n <name>
+
+run:
+	dotnet run
+
+ignore:
+	dotnet new gitignore
